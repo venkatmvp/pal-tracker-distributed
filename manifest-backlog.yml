@@ -2,7 +2,7 @@ applications:
 - name: tracker-backlog
   path: ./applications/backlog-server/build/libs/backlog-server.jar
   routes:
-  - route: backlog-pal-Venkat-Kavya.apps.cfapps.io
+  - route: backlog-pal-Venkat-Kavya.cfapps.io
   memory: 475M
   instances: 1
   disk_quota: 475M
