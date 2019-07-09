@@ -2,7 +2,7 @@ applications:
 - name: tracker-registration
   path: ./applications/registration-server/build/libs/registration-server.jar
   routes:
-  - route: registration-pal-Venkat-Kavya.cfapps.io
+  - route: registration-pal-Venkat-Kavya-auth.cfapps.io
   memory: 475M
   instances: 1
   disk_quota: 475M
@@ -13,5 +13,6 @@ applications:
   services:
   - tracker-registration-database
   - tracker-service-registry
+  - tracker-sso
 
 

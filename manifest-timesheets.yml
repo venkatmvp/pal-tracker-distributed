@@ -2,7 +2,7 @@ applications:
 - name: tracker-timesheets
   path: ./applications/timesheets-server/build/libs/timesheets-server.jar
   routes:
-  - route: timesheets-pal-Venkat-Kavya.cfapps.io
+  - route: timesheets-pal-Venkat-Kavya-auth.cfapps.io
   memory: 475M
   instances: 1
   disk_quota: 475M
@@ -14,6 +14,7 @@ applications:
   - tracker-timesheets-database
   - tracker-service-registry
   - tracker-circuit-breaker-dashboard
+  - tracker-sso
 
 
 
